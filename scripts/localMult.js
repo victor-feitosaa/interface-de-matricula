@@ -1,8 +1,16 @@
+//canal principal
 const canal = '019288cf-9615-7b8d-87d9-84f134d7b3ba'
 
+//duas cidades
 const canalTeste = '019288d0-303b-7471-a708-330cf33c21b9'
 
-const canalEmUso = canal;
+//apenas uma cidade
+const canalTesteSecundario = '01936a76-1e5c-7478-b842-61e0c35fcdb4'
+
+const canalTerciario = '019288d0-303b-7471-a708-330cf33c21b9'
+
+const canalEmUso = canalTerciario;
+
 
 async function cidades() {
     const multURL = `https://teste-api-capta.uninorteac.edu.br:443/api/v1/ficha/localidades?canal=${canalEmUso}`
