@@ -43,4 +43,4 @@ Este projeto é uma **interface de matrícula online** desenvolvida para auxilia
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/interface-de-matricula.git
+   git clone https://github.com/victor-feitosaa/interface-de-matricula.git
