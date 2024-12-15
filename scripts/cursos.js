@@ -3,7 +3,7 @@ function checarParamsForms(){
     const urlParams = new URLSearchParams(window.location.search);
     const formasParams = urlParams.has('forma-ingresso');
     if (!formasParams) {
-        window.location.href = 'inicio.html'
+        window.location.href = 'index.html'
     }
 };
 

@@ -11,7 +11,7 @@ const canal = canalParam.get('canal');
 function checarParamsForms() {
 
     if (!cidadeParam) {
-        window.location.href = 'inicio.html';
+        window.location.href = 'index.html';
     }
 }
 

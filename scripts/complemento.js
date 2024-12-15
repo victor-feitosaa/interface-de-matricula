@@ -2,7 +2,7 @@ function checarParamsComplemento(){
     const urlParams = new URLSearchParams(window.location.search);
     const ofertaParams = urlParams.has('oferta');
     if (!ofertaParams) {
-        window.location.href = 'inicio.html'
+        window.location.href = 'index.html'
     }
 };
 
